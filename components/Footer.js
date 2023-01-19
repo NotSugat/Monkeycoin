@@ -11,13 +11,17 @@ const Footer = () => {
           SPACE.
         </h2>
         <div className='flex gap-4'>
-          <a href='https://github.com/NotSugat' target='_blank'>
+          <a
+            href='https://github.com/NotSugat'
+            target='_blank'
+            rel='noreferrer'
+          >
             <AiFillGithub className='text-sm md:text-xl ' />
           </a>
           <a href='https://twitter.com/notsugat' target='_blank'>
             <AiOutlineTwitter className='text-sm md:text-xl' />
           </a>
-          <a href='' target='_blank'>
+          <a href='' target='_blank' rel='noreferrer'>
             <BsFacebook className='text-sm md:text-xl' />
           </a>
         </div>
