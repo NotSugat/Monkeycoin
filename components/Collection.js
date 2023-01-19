@@ -13,21 +13,21 @@ import Image from "next/image"
 const Collection = () => {
   return (
     <div className='my-24 grid grid-cols-1 md:grid-cols-4 gap-4'>
-      <div className='col-span-1 xl:col-span-2 space-y-4'>
-        <h3 className='text-xl text-cyan-400 font-semibold '>COLLECTION</h3>
-        <div className='space-y-2'>
+      <div className='col-span-1 xl:col-span-2 '>
+        <div className=''>
+          <h3 className='text-xl text-cyan-400 font-semibold '>COLLECTION</h3>
           <h2 className='text-2xl font-semibold'>BORED APES</h2>
           <h2 className='text-2xl font-semibold'>NFT ITEMS</h2>
         </div>
-        <p className='text-gray-400 text-sm'>
+        <p className='text-gray-400 text-sm max-w-md my-6'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi debitis
           rerum ea tempore quidem totam minus itaque facere et.
         </p>
-        <button className='text-sm border-2 border-white  p-2  rounded-full hover:border-blue-400 transition-all duration-300'>
+        <button className='text-sm border-2 border-white px-4 py-2  rounded-full hover:border-blue-400 transition-all duration-300'>
           View on Opensea
         </button>
       </div>
-      <div className='col-span-3 xl:col-span-2'>
+      <div className='col-span-3 xl:col-span-2 '>
         <Swiper
           slidesPerView={3}
           spaceBetween={10}
@@ -36,7 +36,7 @@ const Collection = () => {
             hide: false,
           }}
           modules={[FreeMode, Scrollbar]}
-          className='mySwiper h-[320px] '
+          className='mySwiper h-[320px] scrollbar '
         >
           <SwiperSlide>
             <img

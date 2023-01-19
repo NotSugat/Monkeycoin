@@ -20,7 +20,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <button className='bg-blue-400 p-2 px-4 mt-2 md:p-4 md:text-base text-sm rounded-full hover:bg-blue-600 transition-all duration-300 md:mt-0'>
+      <button className='bg-blue-400 p-2 px-4 mt-2 md:p-4 md:text-base text-sm rounded-full hover:bg-blue-600 transition-all duration-300 md:mt-1'>
         Connect Wallet
       </button>
     </div>

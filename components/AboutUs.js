@@ -11,8 +11,8 @@ const AboutUs = () => {
         />
       </div>
       <div className='space-y-3 md:space-y-2 xl:space-y-5 '>
-        <h1 className='font-semibold text-xl text-cyan-400 '>ABOUT US</h1>
-        <div className='flex flex-col gap-1'>
+        <div className='flex flex-col gap-1 '>
+          <h1 className='font-semibold text-xl text-cyan-400'>ABOUT US</h1>
           <span className=' text-3xl font-semibold md:text-2xl xl:text-4xl'>
             DISCOVER MORE
           </span>

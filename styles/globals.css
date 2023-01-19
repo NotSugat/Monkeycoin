@@ -4,6 +4,21 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap");
 
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background: #b4b4c4;
+  border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(100, 100, 100);
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #b4b4c4 !important;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
