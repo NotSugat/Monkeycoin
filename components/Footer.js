@@ -13,15 +13,14 @@ const Footer = () => {
         <div className='flex gap-4'>
           <a
             href='https://github.com/NotSugat'
-            target='_blank'
             rel='noreferrer'
           >
             <AiFillGithub className='text-sm md:text-xl ' />
           </a>
-          <a href='https://twitter.com/notsugat' target='_blank'>
+          <a href='https://twitter.com/notsugat' >
             <AiOutlineTwitter className='text-sm md:text-xl' />
           </a>
-          <a href='' target='_blank' rel='noreferrer'>
+          <a href='' rel='noreferrer'>
             <BsFacebook className='text-sm md:text-xl' />
           </a>
         </div>
