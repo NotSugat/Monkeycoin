@@ -5,7 +5,7 @@ import logo from "../public/images/EthLogo.png"
 const HeroSection = () => {
   return (
     <div className='grid md:grid-cols-2 py-4 md:mt-24 xl:mt-28'>
-      <div className='flex flex-col gap-4 p-8 justify-center'>
+      <div className='flex flex-col gap-4 lg:p-8 justify-center'>
         <div className='flex flex-col gap-2  font-extrabold text-2xl md:text-4xl  xl:text-5xl'>
           <span>DISCOVER </span>
           <span>COLLECT SELL </span>

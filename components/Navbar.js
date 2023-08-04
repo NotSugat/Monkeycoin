@@ -3,7 +3,7 @@ import { FiMoon } from "react-icons/fi"
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between p-2 items-center'>
+    <div className='flex justify-between items-center py-2'>
       <div className='text-2xl font-extrabold text-grad'>SPACE</div>
       <ul className=' gap-4 font-semibold text-sm hidden lg:flex md:text-lg lg:text-xl'>
         <li>
