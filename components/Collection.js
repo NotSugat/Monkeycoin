@@ -19,7 +19,7 @@ const Collection = () => {
           <h2 className='text-2xl font-semibold'>BORED APES</h2>
           <h2 className='text-2xl font-semibold'>NFT ITEMS</h2>
         </div>
-        <p className='text-gray-400 text-sm max-w-md my-6'>
+        <p className='text-gray-400 text-[clamp(1rem_,_2vh_,_1.45rem)]  max-w-md my-6'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi debitis
           rerum ea tempore quidem totam minus itaque facere et.
         </p>

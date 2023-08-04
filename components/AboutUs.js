@@ -23,7 +23,7 @@ const AboutUs = () => {
             RARE NFTS
           </span>
         </div>
-        <p className='text-sm text-gray-400'>
+        <p className='text-[clamp(1.125rem_,_2vh_,_2rem)] text-gray-400'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
           repellendus quisquam, ea adipisci magnam sapiente labore veritatis
           facilis.

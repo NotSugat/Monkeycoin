@@ -15,7 +15,7 @@ const Contact = () => {
 				<h2 className='text-xl xl:text-4xl md:text-3xl font-semibold '>
 					JOIN US NOW
 				</h2>
-				<p className='text-xs max-w-[30vw] md:text-sm'>
+				<p className='max-w-[30vw] text-[clamp(0.875rem_,_1vh_,_1.45rem)] '>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ea.
 				</p>
 				<button className='text-xs w-fit md:text-sm border-2 border-white  px-4 py-2 rounded-full hover:border-blue-400 transition-all duration-300 '>

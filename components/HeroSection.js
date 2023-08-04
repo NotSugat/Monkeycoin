@@ -11,7 +11,7 @@ const HeroSection = () => {
           <span>COLLECT SELL </span>
           <span>DIGITAL NFT.</span>
         </div>
-        <p className='text-gray-400 text-sm md:text-xl lg:text-2xl'>
+        <p className='text-gray-400 text-[clamp(1.125rem_,_2vh_,_2rem)] '>
           Generate 10,000+ Nft collection Only by uploading the laters, and get
           ready to sell your collection
         </p>
